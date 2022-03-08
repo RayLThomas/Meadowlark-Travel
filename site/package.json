@@ -4,12 +4,15 @@
   "description": "Node & Express book pg 20",
   "main": "meadowlark.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon meadowlark.js"
   },
   "author": "Raymond",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
     "express3-handlebars": "^0.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
